@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebPage1</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--splide -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+    <!--remix-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
+    <!--font-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/logo-w.png" alt="" />
+      </div>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tours</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div class="social_icon">
+        <i class="ri-search-2-line"></i>
+        <i class="ri-heart-line"></i>
+        <i class="ri-user-line"></i>
+        <i class="ri-menu-line" id="open_menu"></i>
+      </div>
+      <div class="sidebar_menu">
+        <div class="logo">
+          <img src="img/logo-w.png" alt="" />
+          <i class="ri-close-large-line" id="close_sidebar_menu"></i>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Tours</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="splide hero_Splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="img/revslider_h3-1.jpg" alt="" />
+            <div class="hero_title section_title">
+              <h3>Your World of Joy!!</h3>
+              <h1>Save on the most popular Tours</h1>
+              <p>Check out the tours below, then get the booking today!!</p>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <img src="img/revslider_h3-2.jpg" alt="" />
+            <div class="hero_title section_title">
+              <h3>See the world for less!</h3>
+              <h1>Bring on world with <br />small group travel</h1>
+              <p>Check out the tours below, then get the booking today!!</p>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <img src="img/revslider_h3-3.jpg" alt="" />
+            <div class="hero_title section_title">
+              <h3>Explore your Life!</h3>
+              <h1>Enjoy your life & go Explore</h1>
+              <p>Check out the tours below, then get the booking today!!</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="Travels">
+        <div class="Travels_main">
+          <div class="splide Travels_Splide">
+            <div class="splide__track">
+              <div class="Travels_header">
+                <h2>Choose Your Travel Style</h2>
+                <button class="btn1">
+                  <i class="ri-arrow-right-line"></i>
+                  View All Tours
+                </button>
+              </div>
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="travel_wrapper">
+                    <img src="img/h3_img-3.jpg" alt="" />
+                    <h3>Hiking & Trekking</h3>
+                    <div class="travel_box travel_box1">
+                      <i class="fa-solid fa-mountain-sun travel-element1"></i>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Illum quae deleniti asperiores. Quibusdam, molestias?
+                        Veritatis quam accusantium corrupti.
+                      </p>
+                      <button class="btn2">
+                        <i class="ri-arrow-right-line"></i>
+                        View All Tours
+                      </button>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="travel_wrapper">
+                    <img src="img/h3_img-5.jpg" alt="" />
+                    <h3>Day Trips</h3>
+                    <div class="travel_box travel_box2">
+                      <i class="ri-earth-fill travel-element2"></i>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Illum quae deleniti asperiores. Quibusdam, molestias?
+                        Veritatis quam accusantium corrupti.
+                      </p>
+                      <button class="btn2">
+                        <i class="ri-arrow-right-line"></i>
+                        View All Tours
+                      </button>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="travel_wrapper">
+                    <img src="img/h3_img-4.jpg" alt="" />
+                    <h3>River Cruises</h3>
+                    <div class="travel_box travel_box3">
+                      <i class="ri-ancient-pavilion travel-element3"></i>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Illum quae deleniti asperiores. Quibusdam, molestias?
+                        Veritatis quam accusantium corrupti.
+                      </p>
+                      <button class="btn2">
+                        <i class="ri-arrow-right-line"></i>
+                        View All Tours
+                      </button>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="travel_wrapper">
+                    <img src="img/h3_img-7.jpg" alt="" />
+                    <h3>Bike Tours</h3>
+                    <div class="travel_box travel_box4">
+                      <i class="fa-solid fa-bicycle travel-element4"></i>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Illum quae deleniti asperiores. Quibusdam, molestias?
+                        Veritatis quam accusantium corrupti.
+                      </p>
+                      <button class="btn2">
+                        <i class="ri-arrow-right-line"></i>
+                        View All Tours
+                      </button>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="travel_wrapper">
+                    <img src="img/h3_img-6.jpg" alt="" />
+                    <h3>Night Tours</h3>
+                    <div class="travel_box travel_box5">
+                      <i class="ri-moon-clear-fill travel-element5"></i>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Illum quae deleniti asperiores. Quibusdam, molestias?
+                        Veritatis quam accusantium corrupti.
+                      </p>
+                      <button class="btn2">
+                        <i class="ri-arrow-right-line"></i>
+                        View All Tours
+                      </button>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="travel_wrapper">
+                    <img src="img/h3_img-8.jpg" alt="" />
+                    <h3>Food Tours</h3>
+                    <div class="travel_box travel_box6">
+                      <i class="ri-restaurant-2-fill travel-element6"></i>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Illum quae deleniti asperiores. Quibusdam, molestias?
+                        Veritatis quam accusantium corrupti.
+                      </p>
+                      <button class="btn2">
+                        <i class="ri-arrow-right-line"></i>
+                        View All Tours
+                      </button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature_title section_title">
+          <h3>Discover Weekly</h3>
+          <h2>Hot deals on select expedition depaetures</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+            explicabo similique id cum reiciendis! Voluptatem, vitae!
+          </p>
+          <button class="btn2">
+            <i class="ri-arrow-right-line"></i>
+            View All Tours
+          </button>
+        </div>
+        <div class="splide Feature_Splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="Card">
+                  <div class="Tures">
+                    <img src="img/tour_1.jpg" alt="" />
+                  </div>
+                  <div class="Card_box">
+                    <div class="item_rate">
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </div>
+                    </div>
+                    <div class="Tour_content">
+                        <span>Brayce Canyon National Park ,USA</span>
+                        <h3>Mountain Majesty:Peaks, Valleys, and secnic View</h3>
+                        <div class="info_price">
+                          <div>From</div>
+                          <h4>$154.00</h4>
+                        </div>
+                        <button class="btn2">
+                          <i class="ri-arrow-right-line"></i>
+                          View All Tours
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                 
+              </li>
+              <li class="splide__slide">
+                <div class="Card">
+                  <div class="Tures">
+                    <img src="img/tour_2.jpg" alt="" />
+                  </div>
+                  <div class="Card_box">
+                    <div class="item_rate">
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </div>
+                    </div>
+                    <div class="Tour_content">
+                        <span>Brayce Canyon National Park ,USA</span>
+                        <h3>Mountain Majesty:Peaks, Valleys, and secnic View</h3>
+                        <div class="info_price">
+                          <div>From</div>
+                          <h4>$154.00</h4>
+                        </div>
+                        <button class="btn2">
+                          <i class="ri-arrow-right-line"></i>
+                          View All Tours
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                 
+              </li>
+              <li class="splide__slide">
+                <div class="Card">
+                  <div class="Tures">
+                    <img src="img/tour_3.jpg" alt="" />
+                  </div>
+                  <div class="Card_box">
+                    <div class="item_rate">
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </div>
+                    </div>
+                    <div class="Tour_content">
+                        <span>Brayce Canyon National Park ,USA</span>
+                        <h3>Mountain Majesty:Peaks, Valleys, and secnic View</h3>
+                        <div class="info_price">
+                          <div>From</div>
+                          <h4>$154.00</h4>
+                        </div>
+                        <button class="btn2">
+                          <i class="ri-arrow-right-line"></i>
+                          View All Tours
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                 
+              </li>
+              <li class="splide__slide">
+                <div class="Card">
+                  <div class="Tures">
+                    <img src="img/tour_4.jpg" alt="" />
+                    <div class="Tures_social_icon">
+                  </div>
+                  <div class="Card_box">
+                    <div class="item_rate">
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </div>
+                    </div>
+                    <div class="Tour_content">
+                        <span>Brayce Canyon National Park ,USA</span>
+                        <h3>Mountain Majesty:Peaks, Valleys, and secnic View</h3>
+                        <div class="info_price">
+                          <div>From</div>
+                          <h4>$154.00</h4>
+                        </div>
+                        <button class="btn2">
+                          <i class="ri-arrow-right-line"></i>
+                          View All Tours
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                 
+              </li>
+              <li class="splide__slide">
+                <div class="Card">
+                  <div class="Tures">
+                    <img src="img/tour_5.jpg" alt="" />
+                  <div class="Card_box">
+                    <div class="item_rate">
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="days">
+                      <i class="ri-time-line"></i>
+                    </div>
+                </div>
+                    <div class="Tour_content">
+                        <span>Brayce Canyon National Park ,USA</span>
+                        <h3>Mountain Majesty:Peaks, Valleys, and secnic View</h3>
+                        <div class="info_price">
+                          <div>From</div>
+                          <h4>$154.00</h4>
+                        </div>
+                        <button class="btn2">
+                          <i class="ri-arrow-right-line"></i>
+                          View All Tours
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                 
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="Popular_tour section">
+        <div class="Popular_tour_title section_title">
+          <h2>Our Most Popular Toures</h2>
+        </div>
+        <div class="Popular_tour_wrap">
+          <div class="Card">
+            <div class="Tures">
+              <img src="img/tour_6.jpg" alt="" />
+              <div class="Tures_social_icon">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-image"></i>
+                <i class="fa-solid fa-video"></i>
+              </div>
+            </div>
+            <div class="Card_box">
+              <div class="item_rate">
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <div class="Tour_content">
+                  <span>Brayce Canyon National Park ,USA</span>
+                  <h3>Mountain Majesty:Peaks, Valleys, and secnic View</h3>
+                  <div class="info_price">
+                    <div>From</div>
+                    <h4>$154.00</h4>
+                  </div>
+                  <button class="btn2">
+                    <i class="ri-arrow-right-line"></i>
+                    More Information
+                  </button>
+                </div>
+              </div>
+            </div>
+          <div class="Card">
+              <div class="Tures">
+                <img src="img/tour_7.jpg" alt="" />
+                <div class="Tures_social_icon">
+                  <i class="fa-solid fa-heart"></i>
+                  <i class="fa-solid fa-image"></i>
+                  <i class="fa-solid fa-video"></i>
+                </div>
+              </div>
+              <div class="Card_box">
+                <div class="item_rate">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <div class="Tour_content">
+                    <span>Brayce Canyon National Park ,USA</span>
+                    <h3>Mountain Majesty:Peaks, Valleys, and secnic View</h3>
+                    <div class="info_price">
+                      <div>From</div>
+                      <h4>$154.00</h4>
+                    </div>
+                    <button class="btn2">
+                      <i class="ri-arrow-right-line"></i>
+                      More Information
+                    </button>
+                  </div>
+                </div>
+              </div>
+          <div class="Card">
+                <div class="Tures">
+                  <img src="img/tour_8.jpg" alt="" />
+                  <div class="Tures_social_icon">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-image"></i>
+                    <i class="fa-solid fa-video"></i>
+                  </div>
+                </div>
+                <div class="Card_box">
+                  <div class="item_rate">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div class="Tour_content">
+                      <span>Brayce Canyon National Park ,USA</span>
+                      <h3>Mountain Majesty:Peaks, Valleys, and secnic View</h3>
+                      <div class="info_price">
+                        <div>From</div>
+                        <h4>$154.00</h4>
+                      </div>
+                      <button class="btn2">
+                        <i class="ri-arrow-right-line"></i>
+                        More Information
+                      </button>
+                    </div>
+                  </div>
+                </div>
+           <div class="Card">
+                  <div class="Tures">
+                    <img src="img/tour_9.jpg" alt="" />
+                    <div class="Tures_social_icon">
+                      <i class="fa-solid fa-heart"></i>
+                      <i class="fa-solid fa-image"></i>
+                      <i class="fa-solid fa-video"></i>
+                    </div>
+                  </div>
+                  <div class="Card_box">
+                    <div class="item_rate">
+                      <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </div>
+                    </div>
+                    <div class="Tour_content">
+                        <span>Brayce Canyon National Park ,USA</span>
+                        <h3>Mountain Majesty:Peaks, Valleys, and secnic View</h3>
+                        <div class="info_price">
+                          <div>From</div>
+                          <h4>$154.00</h4>
+                        </div>
+                        <button class="btn2">
+                          <i class="ri-arrow-right-line"></i>
+                          More Information
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+            <div class="Card">
+                    <div class="Tures">
+                      <img src="img/tour_12.jpg" alt="" />
+                      <div class="Tures_social_icon">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-image"></i>
+                        <i class="fa-solid fa-video"></i>
+                      </div>
+                    </div>
+                    <div class="Card_box">
+                      <div class="item_rate">
+                        <div class="star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                      </div>
+                      <div class="Tour_content">
+                          <span>Brayce Canyon National Park ,USA</span>
+                          <h3>Mountain Majesty:Peaks, Valleys, and secnic View</h3>
+                          <div class="info_price">
+                            <div>From</div>
+                            <h4>$154.00</h4>
+                          </div>
+                          <button class="btn2">
+                            <i class="ri-arrow-right-line"></i>
+                            More Information
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+            <div class="Card">
+                      <div class="Tures">
+                        <img src="img/tour_11.jpg" alt="" />
+                        <div class="Tures_social_icon">
+                          <i class="fa-solid fa-heart"></i>
+                          <i class="fa-solid fa-image"></i>
+                          <i class="fa-solid fa-video"></i>
+                        </div>
+                      </div>
+                      <div class="Card_box">
+                        <div class="item_rate">
+                          <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                          </div>
+                        </div>
+                        <div class="Tour_content">
+                            <span>Brayce Canyon National Park ,USA</span>
+                            <h3>Mountain Majesty:Peaks, Valleys, and secnic View</h3>
+                            <div class="info_price">
+                              <div>From</div>
+                              <h4>$154.00</h4>
+                            </div>
+                            <button class="btn2">
+                              <i class="ri-arrow-right-line"></i>
+                              More Information
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+             <div class="Card">
+             <div class="Travel_activities_title">
+              <span>Explore The World !</span>
+                 <h3>Travel And Save On Activities</h3>
+             </div>
+                      </div>
+        </div>
+      </div>
+           <div class="image-container">
+          <img class="img2" src="https://www.novo-monde.com/app/uploads/2019/05/travel-the-world.png" alt="Travel Experience">
+          <div class="con-img">
+              <h2>250+</h2>
+              <p><b>Trusted by Leading Travel Partners</b></p>
+              <div class="img-slider-container">
+                  <div class="img-slider">
+                      <img src="https://logodix.com/logo/1963602.jpg" alt="Partner 1">
+                      <img src="https://www.pngplay.com/wp-content/uploads/13/Suzuki-Logo-PNG-Photos.png" alt="Partner 2">
+                      <img src="https://coverager.com/wp-content/uploads/2021/08/PolicyBazaar.png" alt="Partner 3">
+                      <img src="https://tse4.mm.bing.net/th?id=OIP.HQTSL7hm3v03GmEaI3c4qgAAAA&pid=Api&P=0&h=180"
+                          alt="Partner 4">
+                      <img src="https://logos-world.net/wp-content/uploads/2021/04/Marsh-and-McLennan-New-Logo.png"
+                          alt="Partner 5">
+                      <img src="https://freepngdesign.com/content/uploads/images/p-2700-1-bata-logo-png-transparent-logo-924430378328.png"
+                          alt="Partner 6">
+                      <img src="https://tse4.mm.bing.net/th?id=OIP.UvbK-dbh8bxUPFgYp6NNHQAAAA&pid=Api&P=0&h=180.png"
+                          alt="Partner 7">
+                      <img src="https://cdn.freelogovectors.net/wp-content/uploads/2020/09/vardhman-logo.png"
+                          alt="Partner 8">
+                  </div>
+              </div>
+              <a href="#" class="explore-link">
+                  <i class="fas fa-search"></i> Partner with Travel <i class="fas fa-arrow-right"></i>
+              </a>
+              <button>Plan Your Trip</button>
+          </div>
+      </div>
+      <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <details>
+                <summary>Can I choose my travel guide?</summary>
+                <div class="faq-answer">
+                    Yes, you can choose your preferred travel guide based on availability.
+                </div>
+            </details>
+    
+            <details>
+                <summary>Will I get the same guide for the entire trip?</summary>
+                <div class="faq-answer">
+                    We aim to provide you with the same guide, but due to scheduling, it may change.
+                </div>
+            </details>
+    
+            <details>
+                <summary>How do you offer lower travel package prices?</summary>
+                <div class="faq-answer">
+                    We work with efficient planning and bulk bookings to pass savings on to travelers.
+                </div>
+            </details>
+    
+            <details>
+                <summary>Can I book a trip at the last minute?</summary>
+                <div class="faq-answer">
+                    Yes, last-minute bookings are available based on trip availability.
+                </div>
+            </details>
+    
+            <details>
+                <summary>What are the best seasons for travel?</summary>
+                <div class="faq-answer">
+                    The best travel seasons depend on the destination, but off-peak times offer fewer crowds and lower prices.
+                </div>
+            </details>
+    
+            <details>
+                <summary>Do you provide customized travel packages?</summary>
+                <div class="faq-answer">
+                    Yes, we offer customized packages to suit your preferences and budget.
+                </div>
+            </details>
+        </div>
+    </section>
+ 
+  
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Destinations</h3>
+            <ul>
+                <li><a href="#">Europe</a></li>
+                <li><a href="#">Asia</a></li>
+                <li><a href="#">America</a></li>
+                <li><a href="#">Australia</a></li>
+                <li><a href="#">Africa</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Travel Services</h3>
+            <ul>
+                <li><a href="#">Flight Booking</a></li>
+                <li><a href="#">Hotel Reservations</a></li>
+                <li><a href="#">Travel Insurance</a></li>
+                <li><a href="#">Car Rentals</a></li>
+                <li><a href="#">Guided Tours</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Accessibility</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
