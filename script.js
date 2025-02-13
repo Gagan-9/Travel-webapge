@@ -63,22 +63,22 @@ var travelSplide = new Splide('.Feature_Splide', {
     loop: true,
     autoplay: true,
     drag: 'free',
-    perPage: 3,
+    perPage: 3.5,
     perMove: 1,
     gap: '1.2em',
     pagination:false,
     snap: true,
     breakpoints: {
         1600: {
-            perPage: 4,
+            perPage: 3.5,
             gap: '0.5em'
         },
         1200: {
-            perPage: 2,
+            perPage: 3,
             gap: '0.5em'
         },
         1000: {
-            perPage: 1.5
+            perPage: 2
         },
         900: {
             perPage: 1,
@@ -87,3 +87,33 @@ var travelSplide = new Splide('.Feature_Splide', {
     }
 });
 travelSplide.mount();
+
+//Best Deal
+var BestDealsSplide = new Splide('.Best_Deals_Splide', {
+    type: 'loop',
+    loop: true,
+    autoplay: true,
+    drag: 'free',
+    focus:0,
+    omitEnd: true,
+    perPage: 5.5,
+    perMove: 1,
+    gap: '1.2em',
+    pagination:false,
+    snap: true,
+    breakpoints: {
+   
+        1400: {
+            perPage: 3,
+
+        },
+        1200: {
+            perPage: 3.5
+        },
+        500: {
+            perPage: 2.5,
+
+        },
+    }
+});
+BestDealsSplide.mount();
