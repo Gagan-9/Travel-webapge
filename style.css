@@ -130,8 +130,8 @@
 
 .social_icon i {
     font-size: 1.5rem;
-    padding: 10px;
-    color: #ff6600; /* Orange Theme */
+    padding: 5px;
+    color: var(--Primary-color); 
     background: #fff;
     border-radius: 50%;
     transition: 0.3s ease;
