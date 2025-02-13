@@ -34,12 +34,42 @@
         <li><a href="#">Pages</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
-      <div class="social_icon">
-        <i class="ri-search-2-line"></i>
-        <i class="ri-heart-line"></i>
-        <i class="ri-user-line"></i>
-        <i class="ri-menu-line" id="open_menu"></i>
+     <!-- Social Icons with Dropdown -->
+<div class="social_icon">
+  <div class="icon_wrapper">
+      <i class="ri-search-2-line"></i>
+      <div class="dropdown">
+          <input type="text" placeholder="Search destinations..." />
       </div>
+  </div>
+
+  <div class="icon_wrapper">
+      <i class="ri-heart-line"></i>
+      <div class="dropdown">
+          <p>No favorites yet!</p>
+      </div>
+  </div>
+
+  <div class="icon_wrapper">
+      <i class="ri-user-line"></i>
+      <div class="dropdown">
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+          <a href="#">Profile</a>
+      </div>
+  </div>
+
+  <div class="icon_wrapper">
+      <i class="ri-menu-line" id="open_menu"></i>
+      <div class="dropdown">
+          <a href="#">Home</a>
+          <a href="#">Destinations</a>
+          <a href="#">Tours</a>
+          <a href="#">Contact</a>
+      </div>
+  </div>
+</div>
+
       <div class="sidebar_menu">
         <div class="logo">
             <img src="img/logo.svg" alt="Logo" />

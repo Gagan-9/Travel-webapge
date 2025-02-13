@@ -118,13 +118,71 @@
 
 .social_icon {
     display: flex;
-    gap: 20px;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+}
+
+.icon_wrapper {
+    position: relative;
+    cursor: pointer;
 }
 
 .social_icon i {
-    font-size: 25px;
-    color: var(--white-color);
-    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: #ff6600; /* Orange Theme */
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.social_icon i:hover {
+    background: #ff6600;
+    color: white;
+}
+
+/* Dropdown Styling */
+.dropdown {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 180px;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+    z-index: 10;
+}
+
+/* Dropdown links */
+.dropdown a {
+    padding: 8px 15px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.dropdown a:hover {
+    background: var(--Primary-color);
+    color: white;
+}
+
+.dropdown input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.icon_wrapper:hover .dropdown {
+    display: flex;
 }
 
 .sidebar_menu {
