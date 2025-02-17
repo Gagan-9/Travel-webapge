@@ -1,873 +1,872 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <title>Havezic</title>
-    <link rel="stylesheet" href="style.css" />
-    <!--splide -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
-    />
-    <!--remix-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
-    />
-    <!--font-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="logo">
-        <img src="img/logo-w.svg" alt="" />
-      </div>
-      <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Tours</a></li>
-        <li><a href="#">Destinations</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Pages</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-     <!-- Social Icons with Dropdown -->
-<div class="social_icon">
-  <div class="icon_wrapper">
-      <i class="ri-search-2-line"></i>
-      <div class="dropdown">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <title>Havezic</title>
+  <link rel="stylesheet" href="style.css" />
+  <!--splide -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+  <!--remix-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" />
+  <!--font-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="img/logo-w.svg" alt="" />
+    </div>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#popular">Popular</a></li>
+      <li><a href="#tours">Tours</a></li>
+      <li><a href="#deals">Deals</a></li>
+      <li><a href="#newsletter">Newsletter</a></li>
+    </ul>
+    <!-- Social Icons with Dropdown -->
+    <div class="social_icon">
+      <div class="icon_wrapper">
+        <i class="ri-search-2-line"></i>
+        <div class="dropdown">
           <input type="text" placeholder="Search destinations..." />
+        </div>
       </div>
-  </div>
 
-  <div class="icon_wrapper">
-      <i class="ri-heart-line"></i>
-      <div class="dropdown">
+      <div class="icon_wrapper">
+        <i class="ri-heart-line"></i>
+        <div class="dropdown">
           <p>No favorites yet!</p>
+        </div>
       </div>
-  </div>
 
-  <div class="icon_wrapper">
-      <i class="ri-user-line"></i>
-      <div class="dropdown">
+      <div class="icon_wrapper">
+        <i class="ri-user-line"></i>
+        <div class="dropdown">
           <a href="#">Login</a>
           <a href="#">Register</a>
           <a href="#">Profile</a>
-      </div>
-  </div>
-
-  <div class="icon_wrapper">
-      <i class="ri-menu-line" id="open_menu"></i>
-  </div>
-</div>
-
-      <div class="sidebar_menu">
-        <div class="logo">
-            <img src="img/logo.svg" alt="Logo" />
-            <i class="ri-close-large-line" id="close_sidebar_menu"></i>
         </div>
-        <ul>
-            <li><a href="#"><i class="ri-home-4-line"></i> Home</a></li>
-            <li><a href="#"><i class="ri-plane-line"></i> Tours</a></li>
-            <li><a href="#"><i class="ri-map-pin-line"></i> Destinations</a></li>
-            <li><a href="#"><i class="ri-article-line"></i> Blog</a></li>
-            <li><a href="#"><i class="ri-pages-line"></i> Pages</a></li>
-            <li><a href="#"><i class="ri-contacts-line"></i> Contact Us</a></li>
-        </ul>
+      </div>
+
+      <div class="icon_wrapper">
+        <i class="ri-menu-line" id="open_menu"></i>
+      </div>
     </div>
-    </nav>
 
-    <section class="splide hero_Splide">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <img src="img/revslider_h3-1.jpg" alt="" />
-            <div class="hero_title section_title">
-              <h1>Save on the most popular Tours</h1>
-              <p style="color: rgb(225, 236, 236);">Check out the tours below, then get the booking today!!</p>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <img src="img/revslider_h3-2.jpg" alt="" />
-            <div class="hero_title section_title">
-              <h1>Bring on world with <br />small group travel</h1>
-              <p style="color: rgb(225, 236, 236);">Check out the tours below, then get the booking today!!</p>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <img src="img/revslider_h3-3.jpg" alt="" />
-            <div class="hero_title section_title">
-              <h1>Enjoy your life & go Explore</h1>
-              <p style="color: rgb(225, 236, 236);">Check out the tours below, then get the booking today!!</p>
-            </div>
-          </li>
-        </ul>
+    <div class="sidebar_menu">
+      <div class="logo">
+        <img src="img/logo.svg" alt="Logo" />
+        <i class="ri-close-large-line" id="close_sidebar_menu"></i>
       </div>
-    </section>
+      <ul>
+        <li><a href="#"><i class="ri-home-4-line"></i> Home</a></li>
+        <li><a href="#"><i class="ri-plane-line"></i> Features</a></li>
+        <li><a href="#"><i class="ri-map-pin-line"></i> Destinations</a></li>
+        <li><a href="#"><i class="ri-article-line"></i> Blog</a></li>
+        <li><a href="#"><i class="ri-pages-line"></i> Pages</a></li>
+        <li><a href="#"><i class="ri-contacts-line"></i> Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <section class="main">
-      <div class="Travels">
-        <div class="Travels_main">
-          <div class="splide Travels_Splide">
-            <div class="Popular_tour_title section_title">
-              <h2>Choose Your Travel Style</h2>
+  <section class="splide hero_Splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <img src="img/revslider_h3-1.jpg" alt="" />
+          <div class="hero_title section_title">
+            <h1>Save on the most popular Tours</h1>
+            <p style="color: rgb(225, 236, 236);">Check out the tours below, then get the booking today!!</p>
           </div>
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">
-                  <div class="travel_wrapper">
-                    <img src="img/h3_img-3.jpg" alt="" />
-                    <h3>Trekking</h3>
-                    <div class="travel_box travel_box1">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illum quae deleniti asperiores. Quibusdam, molestias?
-                        Veritatis quam accusantium corrupti.
-                      </p>
-                      <button class="btn2">
-                        <i class="ri-arrow-right-line"></i>
-                        View All Tours
-                      </button>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="travel_wrapper">
-                    <img src="img/h3_img-5.jpg" alt="" />
-                    <h3>Day Trips</h3>
-                    <div class="travel_box travel_box2">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illum quae deleniti asperiores. Quibusdam, molestias?
-                        Veritatis quam accusantium corrupti.
-                      </p>
-                      <button class="btn2">
-                        <i class="ri-arrow-right-line"></i>
-                        View All Tours
-                      </button>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="travel_wrapper">
-                    <img src="img/h3_img-4.jpg" alt="" />
-                    <h3>River Cruises</h3>
-                    <div class="travel_box travel_box3">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illum quae deleniti asperiores. Quibusdam, molestias?
-                        Veritatis quam accusantium corrupti.
-                      </p>
-                      <button class="btn2">
-                        <i class="ri-arrow-right-line"></i>
-                        View All Tours
-                      </button>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="travel_wrapper">
-                    <img src="img/h3_img-7.jpg" alt="" />
-                    <h3>Bike Tours</h3>
-                    <div class="travel_box travel_box4">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illum quae deleniti asperiores. Quibusdam, molestias?
-                        Veritatis quam accusantium corrupti.
-                      </p>
-                      <button class="btn2">
-                        <i class="ri-arrow-right-line"></i>
-                        View All Tours
-                      </button>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="travel_wrapper">
-                    <img src="img/h3_img-6.jpg" alt="" />
-                    <h3>Night Tours</h3>
-                    <div class="travel_box travel_box5">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illum quae deleniti asperiores. Quibusdam, molestias?
-                        Veritatis quam accusantium corrupti.
-                      </p>
-                      <button class="btn2">
-                        <i class="ri-arrow-right-line"></i>
-                        View All Tours
-                      </button>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="travel_wrapper">
-                    <img src="img/h3_img-8.jpg" alt="" />
-                    <h3>Food Tours</h3>
-                    <div class="travel_box travel_box6">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illum quae deleniti asperiores. Quibusdam, molestias?
-                        Veritatis quam accusantium corrupti.
-                      </p>
-                      <button class="btn2">
-                        <i class="ri-arrow-right-line"></i>
-                        View All Tours
-                      </button>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
+        </li>
+        <li class="splide__slide">
+          <img src="img/revslider_h3-2.jpg" alt="" />
+          <div class="hero_title section_title">
+            <h1>Bring on world with <br />small group travel</h1>
+            <p style="color: rgb(225, 236, 236);">Check out the tours below, then get the booking today!!</p>
           </div>
-        </div>
-      </section>
+        </li>
+        <li class="splide__slide">
+          <img src="img/revslider_h3-3.jpg" alt="" />
+          <div class="hero_title section_title">
+            <h1>Enjoy your life & go Explore</h1>
+            <p style="color: rgb(225, 236, 236);">Check out the tours below, then get the booking today!!</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-      <section class="feature">
-        <div class="feature_title section_title">
-          <h3>Discover Weekly</h3>
-          <h2>Hot deals on select expedition depaetures</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
-            explicabo similique id cum reiciendis! Voluptatem, vitae!
-          </p>
-          <button class="btn2">
-            <i class="ri-arrow-right-line"></i>
-            View All Tours
-          </button>
-        </div>
-        <div class="splide Feature_Splide">
+  <section class="main">
+    <div class="Travels">
+      <div class="Travels_main">
+        <div class="splide Travels_Splide">
+          <div class="Popular_tour_title section_title">
+            <h2>Choose Your Travel Style</h2>
+          </div>
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <div class="Card">
-                  <div class="Tours">
-                      <img src="img/tour_6.jpg" alt="Mountain Tour" />
-                      <div class="Tours_social_icon">
-                          <span class="icon">❤</span>
-                          <span class="icon">🖼</span>
-                          <span class="icon">🎥</span>
-                      </div>
+                <div class="travel_wrapper">
+                  <img src="img/h3_img-3.jpg" alt="" />
+                  <h3>Trekking</h3>
+                  <div class="travel_box travel_box1">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Illum quae deleniti asperiores. Quibusdam, molestias?
+                      Veritatis quam accusantium corrupti.
+                    </p>
+                    <button class="btn2">
+                      <i class="ri-arrow-right-line"></i>
+                      View All Tours
+                    </button>
                   </div>
-                  <div class="Card_box">
-                      <div class="item_rate">
-                          <div class="star">★★★★★</div>
-                      </div>
-                      <div class="Tour_content">
-                          <span>Grand Canyon, USA</span>
-                          <h3>Canyon Explorer: Desert Beauty and Sunsets</h3>
-                          <div class="info_price">
-                              <div>From</div>
-                              <h4>$199.00</h4>
-                          </div>
-                          <button class="btn2">
-                              <span class="arrow">→</span>
-                              More Information
-                          </button>
-                      </div>
-                  </div>
-              </div>
-              </li>
-              <li class="splide__slide"> 
-            <div class="Card">
-              <div class="Tours">
-                  <img src="img/tour_2.jpg" alt="Mountain Tour" />
-                  <div class="Tours_social_icon">
-                      <span class="icon">❤</span>
-                      <span class="icon">🖼</span>
-                      <span class="icon">🎥</span>
-                  </div>
-              </div>
-              <div class="Card_box">
-                  <div class="item_rate">
-                      <div class="star">★★★★☆</div>
-                  </div>
-                  <div class="Tour_content">
-                      <span>Yellowstone National Park, USA</span>
-                      <h3>Wilderness Adventure: Natural Wonders Expedition</h3>
-                      <div class="info_price">
-                          <div>From</div>
-                          <h4>$189.00</h4>
-                      </div>
-                      <button class="btn2">
-                          <span class="arrow">→</span>
-                          More Information
-                      </button>
-                  </div>
-              </div>
-          </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <div class="Card">
-                  <div class="Tours">
-                      <img src="img/tour_3.jpg" alt="Mountain Tour" />
-                      <div class="Tours_social_icon">
-                          <span class="icon">❤</span>
-                          <span class="icon">🖼</span>
-                          <span class="icon">🎥</span>
-                      </div>
+                <div class="travel_wrapper">
+                  <img src="img/h3_img-5.jpg" alt="" />
+                  <h3>Day Trips</h3>
+                  <div class="travel_box travel_box2">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Illum quae deleniti asperiores. Quibusdam, molestias?
+                      Veritatis quam accusantium corrupti.
+                    </p>
+                    <button class="btn2">
+                      <i class="ri-arrow-right-line"></i>
+                      View All Tours
+                    </button>
                   </div>
-                  <div class="Card_box">
-                      <div class="item_rate">
-                          <div class="star">★★★★★</div>
-                      </div>
-                      <div class="Tour_content">
-                          <span>Grand Canyon, USA</span>
-                          <h3>Canyon Explorer: Desert Beauty and Sunsets</h3>
-                          <div class="info_price">
-                              <div>From</div>
-                              <h4>$199.00</h4>
-                          </div>
-                          <button class="btn2">
-                              <span class="arrow">→</span>
-                              More Information
-                          </button>
-                      </div>
-                  </div>
-              </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <div class="Card">
-                  <div class="Tours">
-                      <img src="img/tour_4.jpg" alt="Mountain Tour" />
-                      <div class="Tours_social_icon">
-                          <span class="icon">❤</span>
-                          <span class="icon">🖼</span>
-                          <span class="icon">🎥</span>
-                      </div>
+                <div class="travel_wrapper">
+                  <img src="img/h3_img-4.jpg" alt="" />
+                  <h3>River Cruises</h3>
+                  <div class="travel_box travel_box3">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Illum quae deleniti asperiores. Quibusdam, molestias?
+                      Veritatis quam accusantium corrupti.
+                    </p>
+                    <button class="btn2">
+                      <i class="ri-arrow-right-line"></i>
+                      View All Tours
+                    </button>
                   </div>
-                  <div class="Card_box">
-                      <div class="item_rate">
-                          <div class="star">★★★★★</div>
-                      </div>
-                      <div class="Tour_content">
-                          <span>Grand Canyon, USA</span>
-                          <h3>Canyon Explorer: Desert Beauty and Sunsets</h3>
-                          <div class="info_price">
-                              <div>From</div>
-                              <h4>$199.00</h4>
-                          </div>
-                          <button class="btn2">
-                              <span class="arrow">→</span>
-                              More Information
-                          </button>
-                      </div>
-                  </div>
-              </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <div class="Card">
-                  <div class="Tours">
-                      <img src="img/tour_5.jpg" alt="Mountain Tour" />
-                      <div class="Tours_social_icon">
-                          <span class="icon">❤</span>
-                          <span class="icon">🖼</span>
-                          <span class="icon">🎥</span>
-                      </div>
+                <div class="travel_wrapper">
+                  <img src="img/h3_img-7.jpg" alt="" />
+                  <h3>Bike Tours</h3>
+                  <div class="travel_box travel_box4">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Illum quae deleniti asperiores. Quibusdam, molestias?
+                      Veritatis quam accusantium corrupti.
+                    </p>
+                    <button class="btn2">
+                      <i class="ri-arrow-right-line"></i>
+                      View All Tours
+                    </button>
                   </div>
-                  <div class="Card_box">
-                      <div class="item_rate">
-                          <div class="star">★★★★★</div>
-                      </div>
-                      <div class="Tour_content">
-                          <span>Grand Canyon, USA</span>
-                          <h3>Canyon Explorer: Desert Beauty and Sunsets</h3>
-                          <div class="info_price">
-                              <div>From</div>
-                              <h4>$199.00</h4>
-                          </div>
-                          <button class="btn2">
-                              <span class="arrow">→</span>
-                              More Information
-                          </button>
-                      </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="travel_wrapper">
+                  <img src="img/h3_img-6.jpg" alt="" />
+                  <h3>Night Tours</h3>
+                  <div class="travel_box travel_box5">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Illum quae deleniti asperiores. Quibusdam, molestias?
+                      Veritatis quam accusantium corrupti.
+                    </p>
+                    <button class="btn2">
+                      <i class="ri-arrow-right-line"></i>
+                      View All Tours
+                    </button>
                   </div>
-              </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="travel_wrapper">
+                  <img src="img/h3_img-8.jpg" alt="" />
+                  <h3>Food Tours</h3>
+                  <div class="travel_box travel_box6">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Illum quae deleniti asperiores. Quibusdam, molestias?
+                      Veritatis quam accusantium corrupti.
+                    </p>
+                    <button class="btn2">
+                      <i class="ri-arrow-right-line"></i>
+                      View All Tours
+                    </button>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
         </div>
-      </section>
+      </div>
+  </section>
 
-        <section class="Popular_tour section">
-        <div class="Popular_tour_title section_title">
-            <h2>Our Most Popular Tours</h2>
+  <section class="feature" id="features">
+    <div class="feature_title section_title">
+      <h3>Discover Weekly</h3>
+      <h2>Hot deals on select expedition depaetures</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+        explicabo similique id cum reiciendis! Voluptatem, vitae!
+      </p>
+      <button class="btn2">
+        <i class="ri-arrow-right-line"></i>
+        View All Tours
+      </button>
+    </div>
+    <div class="splide Feature_Splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <div class="Card">
+              <div class="Tours">
+                <img src="img/tour_6.jpg" alt="Mountain Tour" />
+                <div class="Tours_social_icon">
+                  <span class="icon">❤</span>
+                  <span class="icon">🖼</span>
+                  <span class="icon">🎥</span>
+                </div>
+              </div>
+              <div class="Card_box">
+                <div class="item_rate">
+                  <div class="star">★★★★★</div>
+                </div>
+                <div class="Tour_content">
+                  <span>Grand Canyon, USA</span>
+                  <h3>Canyon Explorer: Desert Beauty and Sunsets</h3>
+                  <div class="info_price">
+                    <div>From</div>
+                    <h4>$199.00</h4>
+                  </div>
+                  <button class="btn2">
+                    <span class="arrow">→</span>
+                    More Information
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="Card">
+              <div class="Tours">
+                <img src="img/tour_2.jpg" alt="Mountain Tour" />
+                <div class="Tours_social_icon">
+                  <span class="icon">❤</span>
+                  <span class="icon">🖼</span>
+                  <span class="icon">🎥</span>
+                </div>
+              </div>
+              <div class="Card_box">
+                <div class="item_rate">
+                  <div class="star">★★★★☆</div>
+                </div>
+                <div class="Tour_content">
+                  <span>Yellowstone National Park, USA</span>
+                  <h3>Wilderness Adventure: Natural Wonders Expedition</h3>
+                  <div class="info_price">
+                    <div>From</div>
+                    <h4>$189.00</h4>
+                  </div>
+                  <button class="btn2">
+                    <span class="arrow">→</span>
+                    More Information
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="Card">
+              <div class="Tours">
+                <img src="img/tour_3.jpg" alt="Mountain Tour" />
+                <div class="Tours_social_icon">
+                  <span class="icon">❤</span>
+                  <span class="icon">🖼</span>
+                  <span class="icon">🎥</span>
+                </div>
+              </div>
+              <div class="Card_box">
+                <div class="item_rate">
+                  <div class="star">★★★★★</div>
+                </div>
+                <div class="Tour_content">
+                  <span>Grand Canyon, USA</span>
+                  <h3>Canyon Explorer: Desert Beauty and Sunsets</h3>
+                  <div class="info_price">
+                    <div>From</div>
+                    <h4>$199.00</h4>
+                  </div>
+                  <button class="btn2">
+                    <span class="arrow">→</span>
+                    More Information
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="Card">
+              <div class="Tours">
+                <img src="img/tour_4.jpg" alt="Mountain Tour" />
+                <div class="Tours_social_icon">
+                  <span class="icon">❤</span>
+                  <span class="icon">🖼</span>
+                  <span class="icon">🎥</span>
+                </div>
+              </div>
+              <div class="Card_box">
+                <div class="item_rate">
+                  <div class="star">★★★★★</div>
+                </div>
+                <div class="Tour_content">
+                  <span>Grand Canyon, USA</span>
+                  <h3>Canyon Explorer: Desert Beauty and Sunsets</h3>
+                  <div class="info_price">
+                    <div>From</div>
+                    <h4>$199.00</h4>
+                  </div>
+                  <button class="btn2">
+                    <span class="arrow">→</span>
+                    More Information
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="Card">
+              <div class="Tours">
+                <img src="img/tour_5.jpg" alt="Mountain Tour" />
+                <div class="Tours_social_icon">
+                  <span class="icon">❤</span>
+                  <span class="icon">🖼</span>
+                  <span class="icon">🎥</span>
+                </div>
+              </div>
+              <div class="Card_box">
+                <div class="item_rate">
+                  <div class="star">★★★★★</div>
+                </div>
+                <div class="Tour_content">
+                  <span>Grand Canyon, USA</span>
+                  <h3>Canyon Explorer: Desert Beauty and Sunsets</h3>
+                  <div class="info_price">
+                    <div>From</div>
+                    <h4>$199.00</h4>
+                  </div>
+                  <button class="btn2">
+                    <span class="arrow">→</span>
+                    More Information
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="Popular_tour section" id="popular">
+    <div class="Popular_tour_title section_title">
+      <h2>Our Most Popular Tours</h2>
+    </div>
+    <div class="Tour_Event_Wrap">
+      <div class="Tour_Event_Left">
+        <div class="Event_Box">
+          <a href="">
+            <img src="img/project-1.jpg" alt="Popular Tour" />
+          </a>
+          <div class="Rating">
+            <h3>
+              <i class="ri-star-fill"></i>
+              4.6
+            </h3>
+          </div>
+          <div class="Project_Content">
+            <h4>Goa, India</h4>
+            <span>Sea Beach</span>
+          </div>
         </div>
-          <div class="Tour_Event_Wrap">
-              <div class="Tour_Event_Left">
-                 <div class="Event_Box">
-                  <a href="">
-                    <img src="img/project-1.jpg" alt="Popular Tour" />
-                  </a>
-                  <div class="Rating">
-                    <h3>
-                      <i class="ri-star-fill"></i>
-                      4.6
-                    </h3>
-                  </div>
-                  <div class="Project_Content">
-                        <h4>Goa, India</h4>
-                        <span>Sea Beach</span>
-                  </div>
-                 </div>
-                 <div class="Event_Box">
-                  <a href="">
-                    <img src="img/project-2.jpg" alt="Popular Tour" />
-                  </a>
-                  <div class="Rating">
-                    <h3>
-                      <i class="ri-star-fill"></i>
-                      4.6
-                    </h3>
-                  </div>
-                  <div class="Project_Content">
-                        <h4>Mexico, Sea Beach</h4>
-                        <span>Sea Beach</span>
-                  </div>
-                 </div>
-              </div>
-              <div class="Top_Event_Middel">
-                <div class="Event_Box">
-                  <a href="">
-                    <img src="img/project-3.jpg" alt="Popular Tour" />
-                  </a>
-                  <div class="Rating">
-                    <h3>
-                      <i class="ri-star-fill"></i>
-                      4.6
-                    </h3>
-                  </div>
-                  <div class="Project_Content">
-                        <h4>Kudadoo, Maldives</h4>
-                        <span>Sea Beach</span>
-                  </div>
-                 </div>
-              </div>
-              <div class="Top_Event_Right">
-                <div class="Event_Box">
-                  <a href="">
-                    <img src="img/project-4.jpg" alt="Popular Tour" />
-                  </a>
-                  <div class="Rating">
-                    <h3>
-                      <i class="ri-star-fill"></i>
-                      4.6
-                    </h3>
-                  </div>
-                  <div class="Project_Content">
-                        <h4>Bali, Indonesia</h4>
-                        <span>Sea Beach</span>
-                  </div>
-                 </div>
-                 <div class="Event_Main">
-                  <div class="Event_Box">
-                    <a href="">
-                      <img src="img/project-5.jpg" alt="Popular Tour" />
-                    </a>
-                    <div class="Rating">
-                      <h3>
-                        <i class="ri-star-fill"></i>
-                        4.6
-                      </h3>
-                    </div>
-                    <div class="Project_Content">
-                          <h4>Nepal</h4>
-                          <span>Sea Beach</span>
-                    </div>
-                   </div>
-                   <div class="Event_Box">
-                    <a href="">
-                      <img src="img/project-6.jpg" alt="Popular Tour" />
-                    </a>
-                    <div class="Rating">
-                      <h3>
-                        <i class="ri-star-fill"></i>
-                        4.6
-                      </h3>
-                    </div>
-                    <div class="Project_Content">
-                          <h4>Thailand</h4>
-                          <span>Sea Beach</span>
-                    </div>
-                   </div>
-                 </div>
-              </div>
+        <div class="Event_Box">
+          <a href="">
+            <img src="img/project-2.jpg" alt="Popular Tour" />
+          </a>
+          <div class="Rating">
+            <h3>
+              <i class="ri-star-fill"></i>
+              4.6
+            </h3>
           </div>
-      </section>
-<section class="Best_Deals section">
- <div class="Best_Deals_title section_title">
-<h3>Download Havexic App</h3>
-<h2>Our Best Deals Are In The App</h2>
-
-<div class="Deals_and_Trip Best_Deals_Content">
- <div class="Deals">
-  <i class="ri-check-fill"></i>
-  <span>App Only Deals</span>
- </div>
- <div class="Trip">
-  <i class="ri-chack-fill"></i>
-  <span>Easy Trip Planning</span>
- </div>
-
-</div>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptate eveniet maiores quis corporis?</p>
-<div class="DailyUser_and_Download Best_Deals_Content">
-  <img src="img/h3_qrcode.jpg" alt="">
-  <div class="Users">
-    <h3>1.3M </h3>
-    <span>Daily Users</span>
-  </div>
-  <div class="Downloads">
-    <h3>130k</h3>
-    <span>Daily Downloads</span>
-  </div>
-</div>
-<p>scan QR Code to Download the App</p>
-<div class="goggleplay_and_appstore Best_Deals_Content">
-  <img src="img/googleplay.jpg" alt="">
-  <img src="img/appstore.jpg" alt="">
-</div>
- </div>
- <div class="Best_Deal_Page">
-  <div class="Best_Deals_Bg">
-    <img src="img/h3_img-1.jpg" alt="">
-  </div>
-  <img src="img/h3_mobile.png" alt="">
-  <div class="splide Best_Deals_Splide">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide">
-  <div class="thumbnail">
-    <img src="img/destination_1.jpg" alt="">
-    <div class="thumbnail_info">
-      <span>2 Hour</span>
-      <h5>Cambodia</h5>
+          <div class="Project_Content">
+            <h4>Mexico, Sea Beach</h4>
+            <span>Sea Beach</span>
+          </div>
+        </div>
+      </div>
+      <div class="Top_Event_Middel">
+        <div class="Event_Box">
+          <a href="">
+            <img src="img/project-3.jpg" alt="Popular Tour" />
+          </a>
+          <div class="Rating">
+            <h3>
+              <i class="ri-star-fill"></i>
+              4.6
+            </h3>
+          </div>
+          <div class="Project_Content">
+            <h4>Kudadoo, Maldives</h4>
+            <span>Sea Beach</span>
+          </div>
+        </div>
+      </div>
+      <div class="Top_Event_Right">
+        <div class="Event_Box">
+          <a href="">
+            <img src="img/project-4.jpg" alt="Popular Tour" />
+          </a>
+          <div class="Rating">
+            <h3>
+              <i class="ri-star-fill"></i>
+              4.6
+            </h3>
+          </div>
+          <div class="Project_Content">
+            <h4>Bali, Indonesia</h4>
+            <span>Sea Beach</span>
+          </div>
+        </div>
+        <div class="Event_Main">
+          <div class="Event_Box">
+            <a href="">
+              <img src="img/project-5.jpg" alt="Popular Tour" />
+            </a>
+            <div class="Rating">
+              <h3>
+                <i class="ri-star-fill"></i>
+                4.6
+              </h3>
+            </div>
+            <div class="Project_Content">
+              <h4>Nepal</h4>
+              <span>Sea Beach</span>
+            </div>
+          </div>
+          <div class="Event_Box">
+            <a href="">
+              <img src="img/project-6.jpg" alt="Popular Tour" />
+            </a>
+            <div class="Rating">
+              <h3>
+                <i class="ri-star-fill"></i>
+                4.6
+              </h3>
+            </div>
+            <div class="Project_Content">
+              <h4>Thailand</h4>
+              <span>Sea Beach</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-        </li>
-        <li class="splide__slide">
-          <div class="thumbnail">
-            <img src="img/destination_3.jpg" alt="">
-            <div class="thumbnail_info">
-              <span>2 Hour</span>
-              <h5>Asia</h5>
-            </div>
-          </div>
-        </li>
-        <li class="splide__slide">
-          <div class="thumbnail">
-            <img src="img/destination_11.jpg" alt="">
-            <div class="thumbnail_info">
-              <span>4 Hour</span>
-              <h5>United States</h5>
-            </div>
-          </div>
-        </li>
-        <li class="splide__slide">
-          <div class="thumbnail">
-            <img src="img/destination_10.jpg" alt="">
-            <div class="thumbnail_info">
-              <span>2 Hour</span>
-              <h5>Costa Rice</h5>
-            </div>
-          </div>
-        </li>
-        <li class="splide__slide">
-          <div class="thumbnail">
-            <img src="img/destination_9.jpg" alt="">
-            <div class="thumbnail_info">
-              <span>0 Hour</span>
-              <h5> Colambia</h5>
-            </div>
-          </div>
-        </li>
-        <li class="splide__slide">
-          <div class="thumbnail">
-            <img src="img/destination_8.jpg" alt="">
-            <div class="thumbnail_info">
-              <span>2 Hour</span>
-              <h5> Canada</h5>
-            </div>
-          </div>
-        </li>
-        <li class="splide__slide">
-          <div class="thumbnail">
-            <img src="img/destination_7.jpg" alt="">
-            <div class="thumbnail_info">
-              <span>1 Hour</span>
-              <h5> Argentina</h5>
-            </div>
-          </div>
-        </li>
-        <li class="splide__slide">
-          <div class="thumbnail">
-            <img src="img/destination_2.jpg" alt="">
-            <div class="thumbnail_info">
-              <span>7 Hour</span>
-              <h5> Americas</h5>
-            </div>
-          </div>
-        </li>
-        <li class="splide__slide">
-          <div class="thumbnail">
-            <img src="img/destination_8.jpg" alt="">
-            <div class="thumbnail_info">
-              <span>0 Hour</span>
-              <h5> Tanzia</h5>
-            </div>
-          </div>
-        </li>
-        <li class="splide__slide">
-          <div class="thumbnail">
-            <img src="img/destination_5.jpg" alt="">
-            <div class="thumbnail_info">
-              <span>1 Hour</span>
-              <h5>Moroco</h5>
-            </div>
-          </div>
-        </li>
-      </ul>
+  </section>
+
+  <section class="Best_Deals section" id="deals">
+    <div class="Best_Deals_title section_title">
+      <h3>Download Havexic App</h3>
+      <h2>Our Best Deals Are In The App</h2>
+
+      <div class="Deals_and_Trip Best_Deals_Content">
+        <div class="Deals">
+          <i class="ri-check-fill"></i>
+          <span>App Only Deals</span>
+        </div>
+        <div class="Trip">
+          <i class="ri-chack-fill"></i>
+          <span>Easy Trip Planning</span>
+        </div>
+
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptate eveniet maiores quis corporis?</p>
+      <div class="DailyUser_and_Download Best_Deals_Content">
+        <img src="img/h3_qrcode.jpg" alt="">
+        <div class="Users">
+          <h3>1.3M </h3>
+          <span>Daily Users</span>
+        </div>
+        <div class="Downloads">
+          <h3>130k</h3>
+          <span>Daily Downloads</span>
+        </div>
+      </div>
+      <p>scan QR Code to Download the App</p>
+      <div class="goggleplay_and_appstore Best_Deals_Content">
+        <img src="img/googleplay.jpg" alt="">
+        <img src="img/appstore.jpg" alt="">
+      </div>
     </div>
-  </div>
- </div>
-</section>
- <section class="Best_Tours section">
-  <div class="Popular_tour_title section_title">
-    <h2>Best Tours On Havezic</h2>
-</div>
-  <div class="Best_Tour_Wrap">
+    <div class="Best_Deal_Page">
+      <div class="Best_Deals_Bg">
+        <img src="img/h3_img-1.jpg" alt="">
+      </div>
+      <img src="img/h3_mobile.png" alt="">
+      <div class="splide Best_Deals_Splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="thumbnail">
+                <img src="img/destination_1.jpg" alt="">
+                <div class="thumbnail_info">
+                  <span>2 Hour</span>
+                  <h5>Cambodia</h5>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="thumbnail">
+                <img src="img/destination_3.jpg" alt="">
+                <div class="thumbnail_info">
+                  <span>2 Hour</span>
+                  <h5>Asia</h5>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="thumbnail">
+                <img src="img/destination_11.jpg" alt="">
+                <div class="thumbnail_info">
+                  <span>4 Hour</span>
+                  <h5>United States</h5>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="thumbnail">
+                <img src="img/destination_10.jpg" alt="">
+                <div class="thumbnail_info">
+                  <span>2 Hour</span>
+                  <h5>Costa Rice</h5>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="thumbnail">
+                <img src="img/destination_9.jpg" alt="">
+                <div class="thumbnail_info">
+                  <span>0 Hour</span>
+                  <h5> Colambia</h5>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="thumbnail">
+                <img src="img/destination_8.jpg" alt="">
+                <div class="thumbnail_info">
+                  <span>2 Hour</span>
+                  <h5> Canada</h5>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="thumbnail">
+                <img src="img/destination_7.jpg" alt="">
+                <div class="thumbnail_info">
+                  <span>1 Hour</span>
+                  <h5> Argentina</h5>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="thumbnail">
+                <img src="img/destination_2.jpg" alt="">
+                <div class="thumbnail_info">
+                  <span>7 Hour</span>
+                  <h5> Americas</h5>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="thumbnail">
+                <img src="img/destination_8.jpg" alt="">
+                <div class="thumbnail_info">
+                  <span>0 Hour</span>
+                  <h5> Tanzia</h5>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="thumbnail">
+                <img src="img/destination_5.jpg" alt="">
+                <div class="thumbnail_info">
+                  <span>1 Hour</span>
+                  <h5>Moroco</h5>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Best_Tours section" id="tours">
+    <div class="Popular_tour_title section_title">
+      <h2>Best Tours On Havezic</h2>
+    </div>
+    <div class="Best_Tour_Wrap">
       <div class="Best_Tours_Container">
-          <h3>Top Rated Tours</h3>
-          <div class="Best_Tours_box">
-              <div class="Best_Tours_Page">
-                  <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=500&q=80" alt="Tour Image">
-              </div>
-              <div class="Best_Tours_Details">
-                  <h4>Epic Escapes: Unwind in Nature's Paradise</h4>
-                  <span>$177.00</span>
-              </div>
+        <h3>Top Rated Tours</h3>
+        <div class="Best_Tours_box">
+          <div class="Best_Tours_Page">
+            <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=500&q=80" alt="Tour Image">
           </div>
-          <div class="Best_Tours_box">
-              <div class="Best_Tours_Page">
-                  <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=500&q=80" alt="Tour Image">
-              </div>
-              <div class="Best_Tours_Details">
-                  <h4>Epic Escapes: Unwind in Nature's Paradise</h4>
-                  <span>$126.00</span>
-              </div>
+          <div class="Best_Tours_Details">
+            <h4>Epic Escapes: Unwind in Nature's Paradise</h4>
+            <span>$177.00</span>
           </div>
-          <div class="Best_Tours_box">
-              <div class="Best_Tours_Page">
-                  <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=500&q=80" alt="Tour Image">
-              </div>
-              <div class="Best_Tours_Details">
-                  <h4>Epic Escapes: Unwind in Nature's Paradise</h4>
-                  <span>$140.00</span>
-              </div>
+        </div>
+        <div class="Best_Tours_box">
+          <div class="Best_Tours_Page">
+            <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=500&q=80" alt="Tour Image">
           </div>
+          <div class="Best_Tours_Details">
+            <h4>Epic Escapes: Unwind in Nature's Paradise</h4>
+            <span>$126.00</span>
+          </div>
+        </div>
+        <div class="Best_Tours_box">
+          <div class="Best_Tours_Page">
+            <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=500&q=80" alt="Tour Image">
+          </div>
+          <div class="Best_Tours_Details">
+            <h4>Epic Escapes: Unwind in Nature's Paradise</h4>
+            <span>$140.00</span>
+          </div>
+        </div>
       </div>
 
       <div class="Best_Tours_Container">
-          <h3>Last Minute Deals</h3>
-          <div class="Best_Tours_box">
-              <div class="Best_Tours_Page">
-                  <img src="https://images.unsplash.com/photo-1522083165195-3424ed129620?w=500&q=80" alt="Tour Image">
-              </div>
-              <div class="Best_Tours_Details">
-                  <h4>NewYork in 5 Days Guided Sightseeing</h4>
-                  <div class="price">
-                      <span class="current-price">$125.00</span>
-                      <span class="original-price">$150.00</span>
-                  </div>
-              </div>
+        <h3>Last Minute Deals</h3>
+        <div class="Best_Tours_box">
+          <div class="Best_Tours_Page">
+            <img src="https://images.unsplash.com/photo-1522083165195-3424ed129620?w=500&q=80" alt="Tour Image">
           </div>
-          <div class="Best_Tours_box">
-              <div class="Best_Tours_Page">
-                  <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=500&q=80" alt="Tour Image">
-              </div>
-              <div class="Best_Tours_Details">
-                  <h4>NewYork in 5 Days Guided Sightseeing</h4>
-                  <div class="price">
-                      <span class="current-price">$150.00</span>
-                      <span class="original-price">$180.00</span>
-                  </div>
-              </div>
+          <div class="Best_Tours_Details">
+            <h4>NewYork in 5 Days Guided Sightseeing</h4>
+            <div class="price">
+              <span class="current-price">$125.00</span>
+              <span class="original-price">$150.00</span>
+            </div>
           </div>
-          <div class="Best_Tours_box">
-              <div class="Best_Tours_Page">
-                  <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=500&q=80" alt="Tour Image">
-              </div>
-              <div class="Best_Tours_Details">
-                  <h4>NewYork in 5 Days Guided Sightseeing</h4>
-                  <div class="price">
-                      <span class="current-price">$190.00</span>
-                      <span class="original-price">$200.00</span>
-                  </div>
-              </div>
+        </div>
+        <div class="Best_Tours_box">
+          <div class="Best_Tours_Page">
+            <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=500&q=80" alt="Tour Image">
           </div>
+          <div class="Best_Tours_Details">
+            <h4>NewYork in 5 Days Guided Sightseeing</h4>
+            <div class="price">
+              <span class="current-price">$150.00</span>
+              <span class="original-price">$180.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="Best_Tours_box">
+          <div class="Best_Tours_Page">
+            <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=500&q=80" alt="Tour Image">
+          </div>
+          <div class="Best_Tours_Details">
+            <h4>NewYork in 5 Days Guided Sightseeing</h4>
+            <div class="price">
+              <span class="current-price">$190.00</span>
+              <span class="original-price">$200.00</span>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="Best_Tours_Container">
-          <h3>Recommended For You</h3>
-          <div class="Best_Tours_box">
-              <div class="Best_Tours_Page">
-                  <img src="https://images.unsplash.com/photo-1522083165195-3424ed129620?w=500&q=80" alt="Tour Image">
-              </div>
-              <div class="Best_Tours_Details">
-                  <h4>NewYork in 5 Days Guided Sightseeing</h4>
-                  <div class="price">
-                      <span class="current-price">$125.00</span>
-                      <span class="original-price">$150.00</span>
-                  </div>
-              </div>
+        <h3>Recommended For You</h3>
+        <div class="Best_Tours_box">
+          <div class="Best_Tours_Page">
+            <img src="https://images.unsplash.com/photo-1522083165195-3424ed129620?w=500&q=80" alt="Tour Image">
           </div>
-          <div class="Best_Tours_box">
-              <div class="Best_Tours_Page">
-                  <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=500&q=80" alt="Tour Image">
-              </div>
-              <div class="Best_Tours_Details">
-                  <h4>NewYork in 5 Days Guided Sightseeing</h4>
-                  <div class="price">
-                      <span class="current-price">$150.00</span>
-                      <span class="original-price">$180.00</span>
-                  </div>
-              </div>
+          <div class="Best_Tours_Details">
+            <h4>NewYork in 5 Days Guided Sightseeing</h4>
+            <div class="price">
+              <span class="current-price">$125.00</span>
+              <span class="original-price">$150.00</span>
+            </div>
           </div>
-          <div class="Best_Tours_box">
-              <div class="Best_Tours_Page">
-                  <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=500&q=80" alt="Tour Image">
-              </div>
-              <div class="Best_Tours_Details">
-                  <h4>NewYork in 5 Days Guided Sightseeing</h4>
-                  <div class="price">
-                      <span class="current-price">$190.00</span>
-                      <span class="original-price">$200.00</span>
-                  </div>
-              </div>
+        </div>
+        <div class="Best_Tours_box">
+          <div class="Best_Tours_Page">
+            <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=500&q=80" alt="Tour Image">
           </div>
+          <div class="Best_Tours_Details">
+            <h4>NewYork in 5 Days Guided Sightseeing</h4>
+            <div class="price">
+              <span class="current-price">$150.00</span>
+              <span class="original-price">$180.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="Best_Tours_box">
+          <div class="Best_Tours_Page">
+            <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=500&q=80" alt="Tour Image">
+          </div>
+          <div class="Best_Tours_Details">
+            <h4>NewYork in 5 Days Guided Sightseeing</h4>
+            <div class="price">
+              <span class="current-price">$190.00</span>
+              <span class="original-price">$200.00</span>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
-</section>
-<section class="newsletter">
-  <div class="newsletter-content">
+    </div>
+  </section>
+  
+  <section class="newsletter" id="newsletter">
+    <div class="newsletter-content">
       <div class="newsletter-text">
-          <span class="label">NEWSLETTER</span>
-          <h2>Subscribe To Our Mailing List & Stay Up To Date</h2>
-          <p>Share The Core Values And Principles That Drive Your Company Emphasize A Commitment To Customer Satisfaction</p>
-          
-          <form class="subscribe-form">
-              <input type="email" placeholder="Email Address" required>
-              <button  type="submit">Subscribe Now</button>
-          </form>
+        <span class="label">NEWSLETTER</span>
+        <h2>Subscribe To Our Mailing List & Stay Up To Date</h2>
+        <p>Share The Core Values And Principles That Drive Your Company Emphasize A Commitment To Customer Satisfaction
+        </p>
 
-          <div class="trusted-by">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" class="company-logo">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg" alt="Meta" class="company-logo">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/AMD_Logo.svg" alt="AMD" class="company-logo">
-          </div>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Email Address" required>
+          <button type="submit">Subscribe Now</button>
+        </form>
+
+        <div class="trusted-by">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon"
+            class="company-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg" alt="Meta"
+            class="company-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/AMD_Logo.svg" alt="AMD" class="company-logo">
+        </div>
       </div>
 
       <div class="newsletter-image">
-          <div class="travel-suitcase">
+        <div class="travel-suitcase">
           <img src="img/newsletter-img-1.png" alt="">
-              <div class="suitcase-overlay"></div>
-          </div>
+          <div class="suitcase-overlay"></div>
+        </div>
       </div>
+    </div>
+  </section>
   </div>
-</section>
-</div>
- 
-  
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="script.js"></script>
+</body>
 <footer>
-<div class="Footer_Wrap">
-  <div class="Footer_Col">
-    <div class="logo Flogo">
-      <h2><a href="">
-        <span>Havezic</span>
-      </a>
-      </h2>
-    </div>
-    <p>Welcome to Havezic, your gateway to unforgettable adventure and immersive travel experiences.
-      Explore with us and let your journey begin! </p>
+  <div class="Footer_Wrap">
+    <div class="Footer_Col">
+      <div class="logo Flogo">
+        <h2><a href="">
+            <span>Havezic</span>
+          </a>
+        </h2>
+      </div>
+      <p>Welcome to Havezic, your gateway to unforgettable adventure and immersive travel experiences.
+        Explore with us and let your journey begin! </p>
       <div class="Footer_Icon">
         <h6>Social Networks:</h6>
         <div class="Icon">
-            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
-                <i class="ri-facebook-fill"></i>
-            </a>
-            <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
-                <i class="ri-twitter-fill"></i>
-            </a>
-            <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
-                <i class="ri-youtube-fill"></i>
-            </a>
+          <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+            <i class="ri-facebook-fill"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+            <i class="ri-youtube-fill"></i>
+          </a>
         </div>
+      </div>
+
     </div>
-    
-  </div>
-<div class="Footer_Col">
-  <h3>Company</h3>
-  <ul>
-    <li>
-      <i class="ri-arrow-right-s-fill"></i>
-      <span>About Us</span>
-    </li>
-    <li>
-      <i class="ri-arrow-right-s-fill"></i>
-      <span>Careers</span>
-    </li>
-    <li>
-      <i class="ri-arrow-right-s-fill"></i>
-      <span>Travel Guides</span>
-    </li>
-    <li>
-      <i class="ri-arrow-right-s-fill"></i>
-      <span>Traveler Review <strong>New</strong></span>
-    </li>
-    <li>
-      <i class="ri-arrow-right-s-fill"></i>
-      <span>Contact Now</span>
-    </li>
-  </ul>
-</div>
-<div class="Footer_Col">
-  <h3>Services</h3>
-  <ul>
-    <li>
-      <i class="ri-arrow-right-s-fill"></i>
-      <span>Destinations</span>
-    </li>
-    <li>
-      <i class="ri-arrow-right-s-fill"></i>
-      <span>Tour Listing</span>
-    </li>
-    <li>
-      <i class="ri-arrow-right-s-fill"></i>
-      <span>Tour Booking</span>
-    </li>
-    <li>
-      <i class="ri-arrow-right-s-fill"></i>
-      <span>Travel Agrnts</span>
-    </li>
-    <li>
-      <i class="ri-arrow-right-s-fill"></i>
-      <span>Help</span>
-    </li>
-  </ul>
-</div>
-<div class="Footer_Col">
-  <h3>Recent Post</h3>
-  <div class="Post">
-    <img src="img/tour_8.jpg" alt="">
-    <div class="Post_Info">
-      <ul class="Post_Info_Top">
+    <div class="Footer_Col">
+      <h3>Company</h3>
+      <ul>
+        <li>
+          <i class="ri-arrow-right-s-fill"></i>
+          <span>About Us</span>
+        </li>
+        <li>
+          <i class="ri-arrow-right-s-fill"></i>
+          <span>Careers</span>
+        </li>
+        <li>
+          <i class="ri-arrow-right-s-fill"></i>
+          <span>Travel Guides</span>
+        </li>
+        <li>
+          <i class="ri-arrow-right-s-fill"></i>
+          <span>Traveler Review <strong>New</strong></span>
+        </li>
+        <li>
+          <i class="ri-arrow-right-s-fill"></i>
+          <span>Contact Now</span>
+        </li>
+      </ul>
+    </div>
+    <div class="Footer_Col">
+      <h3>Services</h3>
+      <ul>
+        <li>
+          <i class="ri-arrow-right-s-fill"></i>
+          <span>Destinations</span>
+        </li>
+        <li>
+          <i class="ri-arrow-right-s-fill"></i>
+          <span>Tour Listing</span>
+        </li>
+        <li>
+          <i class="ri-arrow-right-s-fill"></i>
+          <span>Tour Booking</span>
+        </li>
+        <li>
+          <i class="ri-arrow-right-s-fill"></i>
+          <span>Travel Agrnts</span>
+        </li>
+        <li>
+          <i class="ri-arrow-right-s-fill"></i>
+          <span>Help</span>
+        </li>
+      </ul>
+    </div>
+    <div class="Footer_Col">
+      <h3>Recent Post</h3>
+      <div class="Post">
+        <img src="img/tour_8.jpg" alt="">
+        <div class="Post_Info">
+          <ul class="Post_Info_Top">
             <li>
               <i class="ri-usemillerr-fill"></i>
               <span>By Sophia Miller</span>
@@ -876,14 +875,14 @@
               <i class="ri-calender-check-line"></i>
               <span>Feb 05 2025</span>
             </li>
-      </ul>
-      <h6>Trekker,s Tales: Navigating the world's Wonders</h6>
-    </div>
-  </div>
-  <div class="Post">
-    <img src="img/tour_11.jpg" alt="">
-    <div class="Post_Info">
-      <ul class="Post_Info_Top">
+          </ul>
+          <h6>Trekker,s Tales: Navigating the world's Wonders</h6>
+        </div>
+      </div>
+      <div class="Post">
+        <img src="img/tour_11.jpg" alt="">
+        <div class="Post_Info">
+          <ul class="Post_Info_Top">
             <li>
               <i class="ri-usemillerr-fill"></i>
               <span>By David Miller </span>
@@ -892,19 +891,20 @@
               <i class="ri-calender-check-line"></i>
               <span>Feb 05 2025</span>
             </li>
-      </ul>
-      <h6>Exploring the world, One Adventure at a Time</h6>
+          </ul>
+          <h6>Exploring the world, One Adventure at a Time</h6>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-</div>
-<div class="Footer_Bottom">
-  <p>
-    <strong>Gagandeep Kaur</strong>All Rights reserved Coprights 2025
-  </p>
-  <div class="Footer_bottom_Image">
-    <img src="img/payment.png" alt="">
+  <div class="Footer_Bottom">
+    <p>
+      <strong>Gagandeep Kaur</strong>All Rights reserved Coprights 2025
+    </p>
+    <div class="Footer_bottom_Image">
+      <img src="img/payment.png" alt="">
+    </div>
   </div>
-</div>
 </footer>
+
 </html>

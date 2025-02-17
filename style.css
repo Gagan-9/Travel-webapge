@@ -28,26 +28,6 @@
     gap: 100px;
 }
 
-.section_title {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.section_title h3 {
-    font-family: 'Amatic SC';
-    font-size: 2rem;
-    color: var(--Primary-color);
-}
-
-.section_title h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: var(--secondary-color);
-}
-
 .btn1 {
     background-color: transparent;
     border: none;
@@ -510,19 +490,18 @@
 }
 /*Popular tour Section*/
 .Popular_tour {
-    padding: 4rem 2rem;
+    padding: 4rem ;
     background-color: #f8f9fa;
 }
 
 .Popular_tour_title {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .Popular_tour_title h2 {
     font-size: 2.5rem;
     color: var(--dark-color);
-    margin-bottom: 1rem;
     position: relative;
     display: inline-block;
 }
@@ -533,7 +512,7 @@
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 50%;
+    width: 100%;
     height: 3px;
     background: var(--Primary-color);
 }
@@ -783,6 +762,10 @@
     gap: 30px;
     padding-left: 30px;
 }
+.Best_Deals_title h3{
+    color: var(--Primary-color);
+    font-size: 1.5rem;
+}
 .Best_Deals_title p{
     color: var(--pg-color);
 }
@@ -891,12 +874,6 @@ border-radius: 30px;
 .Best_Tours {
     padding: 2rem;
 }
-
-.Best_Tours_title h2 {
-    font-size: 2rem;
-    font-weight: 600;
-}
-
 .Best_Tour_Wrap {
     width: 100%;
     display: grid;
@@ -1543,5 +1520,247 @@ object-fit: cover;
 
     .Footer_Bottom_Image {
         justify-content: center;
+    }
+}
+
+/*Responsive feature section*/
+@media (max-width: 1024px) {
+    .feature_title {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+    .Feature_Splide {
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .feature_title {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+    .Feature_Splide {
+        width: 100%;
+        padding: 20px;
+    }
+    .Card {
+        margin-bottom: 20px;
+    }
+    .menu li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .menu {
+        gap: 20px;
+    }
+    .social_icon {
+        gap: 10px;
+    }
+    .Card_box {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .feature {
+        padding: 15px;
+    }
+    .feature_title h2 {
+        margin-block: 10px;
+        font-size: 1.5rem;
+        color: var(--secondary-color);
+    }
+    .feature_title p {
+        display: none;
+    }
+    .Card_box h3 {
+        font-size: 1rem;
+    }
+    .info_price h4 {
+        font-size: 1.2rem;
+    }
+    .splide__list {
+        display: block;
+    }
+    .splide__slide {
+        margin-bottom: 20px;
+    }
+}
+
+/* Tour Event*/
+@media (max-width: 992px) {
+    .Tour_Event_Left,
+    .Top_Event_Middel,
+    .Top_Event_Right {
+        width: 100%;
+    }
+    .Tour_Event_Wrap {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Event_Main .Event_Box:nth-child(1),
+    .Event_Main .Event_Box:nth-child(2) {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Popular_tour_title h2 {
+        font-size: 2rem;
+    }
+    .Event_Box .Rating {
+        top: 15px;
+        left: 15px;
+    }
+    .Project_Content h4 {
+        font-size: 1.4rem;
+    }
+    .Tour_Event_Wrap {
+        gap: 20px;
+    }
+    .Event_Main {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .Event_Box {
+        flex-direction: column;
+    }
+    .Project_Content {
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 1200px) {
+    .Best_Deals {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .Best_Deals_title {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .Best_Deal_Page {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .Best_Deals_Splide {
+        top: 80%;
+        right: -20%;
+    }
+
+    .thumbnail {
+        height: 180px;
+    }
+
+    .Best_Deals_title h3 {
+        font-size: 1.2rem;
+    }
+
+    .Best_Deals_title p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Best_Deals {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Best_Deals_title {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .Best_Deal_Page {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .Best_Deals_Splide {
+        top: 85%;
+        right: -30%;
+    }
+
+    .thumbnail {
+        height: 150px;
+    }
+
+    .Best_Deals_title h3 {
+        font-size: 1.1rem;
+    }
+
+    .Best_Deals_title p {
+        font-size: 0.9rem;
+    }
+
+    .googleplay_and_appstore {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .googleplay_and_appstore img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Best_Deals {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .Best_Deals_title {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .Best_Deal_Page {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .Best_Deals_Splide {
+        top: 90%;
+        right: -40%;
+    }
+
+    .thumbnail {
+        height: 120px;
+    }
+
+    .Best_Deals_title h3 {
+        font-size: 1rem;
+    }
+
+    .Best_Deals_title p {
+        font-size: 0.85rem;
+    }
+
+    .googleplay_and_appstore {
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .googleplay_and_appstore img {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
     }
 }
